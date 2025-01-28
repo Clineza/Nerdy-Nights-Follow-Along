@@ -1,7 +1,12 @@
 # Clineza's Nerdy Nights Follow Along with ca65
-This follow along is not a demonstration but is instead a way to show my work and progress with NES 6502 Development.
+This repository is not a tutorial series or demonstration but rather my personal journey through the Nerdy Nights series, showcasing my work and progress in NES development using the 6502 assembly with ca65. Here, you'll find:
+- My implementations and experiments.
+- Notes and reflections on my learning process.
+- A chronicle of challenges faced and solutions discovered.
 
-## Clineza's Introduction
+Additionally, each week's folder will include its own README packed with  images and text detailing my process for that specific week.
+
+## Introduction
 Hi, I am Clineza! I'm inviting you to step away from the abstraction and complexity of modern engines and dive into the nostalgic world of NES development with me. If you've ever wished you could go back to the early days of computing, like many of us from the early 2000s, don't be afraid! You still can! This repository is my journey through the Nerdy Nights series, where I share my code, notes, and experiences to inspire you to explore this retro tech too.
 
 If you're like me, you might be seen as an outlier from today's perspective. I didn't grow up when the 6502 was at its peak, yet I am quite fascinated by hardware and low-level software. My journey began in web programming where I learned JavaScript, HTML, CSS, and PHP. While exciting, it left me wanting more—I craved to understand how computers work under all of the abstraction. How is data stored in an SSD? What are memory addresses? What is binary? What are transistors? And most importantly, how can I begin to program all of that?
@@ -17,16 +22,30 @@ Nerdy Nights is a tutorial series to help people write games for the NES. It int
 
 (*description taken from* https://nerdy-nights.nes.science/)
 
+### What happened to the Week 1 & 2 Folders in the repository?
+The first two weeks of the Nerdy Nights tutorial series don't contain any code. 
+- Week 1 provides an introduction to the binary and hexadecimal number system.
+- Week 2 shifts the focus to an overview of the NES Architecture.
+  
+Both are fundamental concepts that will need a solid foundation before diving into the programming aspects of NES development.
+
+### Which assembler should you use? ca65 vs NESASM
+
+My follow along uses the ca65 Assembler which is a part of the [cc65](https://cc65.github.io/) package. The original Nerdy Nights tutorial series uses the NESASM. It's important to take note of which assembler you'll use since the process and syntax will be slightly different. ca65 is more modern and can be used for other 6502 projects that aren't related to the NES. That's the main reason I chose that one.
+
+If you'd like to know more, then I suggest taking a look at the [Nerdy Nights ca65 Remix](https://github.com/ddribin/nerdy-nights/tree/master) GitHub repository
+
+
 
 ## Additional Resources
 These are some additional resources and websites that have helped me to get a good grasp on programming the 6502 for the NES
 - [NES Dev](https://www.nesdev.org/)
 - [Nerdy Nights Tutorial](https://nerdy-nights.nes.science/)
-- [Nerdy Nights ca65 Remix GitHub](https://github.com/ddribin/nerdy-nights/tree/master)
-- [Nerdy-Nights-ca65-Translation GitHub](https://github.com/JamesSheppardd/Nerdy-Nights-ca65-Translation)
+- [Nerdy Nights ca65 Remix](https://github.com/ddribin/nerdy-nights/tree/master) - GitHub Repository
+- [Nerdy-Nights-ca65-Translation](https://github.com/JamesSheppardd/Nerdy-Nights-ca65-Translation) - GitHub Repository
 - [Easy 6502](https://skilldrick.github.io/easy6502/)
 
 Resources for making games on the NES
-- [Aseprite Pixel Art Software](https://www.aseprite.org/)
 - [FCEUX - NES Emulator](https://fceux.com/web/home.html)
+- [Aseprite Pixel Art Software](https://www.aseprite.org/)
 - [YY-CHR - CHR File creator for Tilesets](https://www.nesdev.org/wiki/YY-CHR)
